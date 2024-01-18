@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.con {
+  padding: 0 32px;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.cruds {
+  width: 100%;
+  background-image: url(/assets/images/menu-bg.jpg);
+  background-size: cover;
+}
+.cruds .crudscon {
+  width: 100%;
+}
+.cruds .crudscon .our {
+  width: 100%;
+  display: flex;
+  padding: 40px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.cruds .crudscon .our hr {
+  width: 300px;
+  height: 2px;
+  border: 1px solid yellow;
+}
+.cruds .crudscon .our h1 {
+  font-size: 60px;
+  color: white;
+}
+.cruds .crudscon .uldiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.cruds .crudscon .uldiv ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 50%;
+}
+.cruds .crudscon .uldiv ul a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 20px;
+}
+.cruds .crudscon .uldiv ul a:hover {
+  color: yellow;
+}
+.cruds .crudscon .search {
+  padding: 50px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.cruds .crudscon .search input {
+  border-radius: 20px;
+  border: 1px solid rgb(255, 187, 0);
+  padding: 5px 10px;
+  outline: none;
+}
+.cruds .crudscon .search select {
+  border-radius: 20px;
+  border: 1px solid rgb(255, 187, 0);
+  padding: 5px 10px;
+  outline: none;
+  color: green;
+}
+.cruds .crudscon .mycrud {
+  display: flex;
+  padding: 100px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.cruds .crudscon .mycrud .crud {
+  flex: 1 1 calc(50% - 20px);
+  max-width: calc(50% - 20px);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.cruds .crudscon .mycrud .crud h2 {
+  width: 100%;
+  font-size: 19px;
+  color: white;
+  font-weight: 20;
+}
+.cruds .crudscon .mycrud .crud p {
+  color: grey;
+}
+.cruds .crudscon .mycrud .crud h4 {
+  color: white;
+}
+.cruds .crudscon .buttonyellow {
+  padding: 0 0 100px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cruds .crudscon .buttonyellow button {
+  background-color: yellow;
+  color: black;
+  font-size: 20px;
+  width: 200px;
+  height: 70px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1000px) {
+  .cruds .crudscon .mycrud {
+    display: flex;
+    padding: 30px 1px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .cruds .crudscon .mycrud .crud {
+    flex: 1 1 calc(100% - 20px);
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    justify-content: space-between;
+  }
+  .cruds .crudscon .mycrud .crud h2 {
+    width: 100%;
+  }
+  .cruds .crudscon .mycrud .crud p {
+    width: 44%;
+    font-size: 12px;
+    color: grey;
+  }
+  .cruds .crudscon .mycrud .crud h4 {
+    color: white;
+  }
+  .cruds .crudscon .buttonyellow {
+    padding: 0 0 100px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cruds .crudscon .buttonyellow button {
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+    width: 200px;
+    height: 70px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+  }
+}/*# sourceMappingURL=style.css.map */
